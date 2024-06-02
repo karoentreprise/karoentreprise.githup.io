@@ -2485,15 +2485,26 @@ font-weight: bold;
     font-weight: bolder;
  }
 
- /*************************Styling cathegories container 15 at the A propos page*****************/
+ /*************************Styling cathegories container 14 at the A propos page*****************/
+
+ .cat-container-14{
+    padding-left: 12px;
+    padding-right: 12px
+}
+
+ .cat-container-14 .col-33 {
+    width: 100%;
+}
 
 .cat-container-14 .col-34{
+    width: 100%;
     margin-bottom: 5%;
 }
 
 .cat-container-14 .about-us{
     font-size: 24px;
-    margin-bottom: 2%;
+    margin-top: 10px;
+    margin-bottom: -30px;
 }
 
 .cat-container-14 .subabout-us{
@@ -2504,11 +2515,13 @@ font-weight: bold;
 
 .cat-container-14 .col-34 video{
    height: 240px;
+   padding-left: 12px;
+   padding-right: 12px
 }
  
 .cat-container-15 .col-35, .col-36 {
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .cat-container-09 .items{
@@ -2516,12 +2529,19 @@ font-weight: bold;
     font-size: 10px;
  }
 
+ .cat-container-15{
+    padding-left: 12px;
+    padding-right: 12px
+}
+
 .cat-container-15 .col-36 img {
-    width: 80%;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .cat-container-15 .subabout-us-01{
     font-size: 15px;
+    margin-bottom: -20px;
 }
 
 /*************************Styling cathegories container 16 at the A propos page*****************/
