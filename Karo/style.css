@@ -673,22 +673,22 @@ font-weight: bold;
     height: auto;
     padding-left: 35px;
     padding-right: 35px;
-    margin-bottom: 7%;
+    margin-bottom: 2%;
 }
 
 /*************************Styling cathegories container 08 at the hope page*****************/
 .cat-container-08 .col-18, .col-19, .col-20, .col-21, .col-22, .col-23 {
     float: left;
-    width: 16%;
-    height: 120px;
-    line-height: 140%;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 16.66%;
+    height: 170px;
+    padding-left: 10px;
+    padding-right: 10px;
     justify-content: center;
 }
 
 .cat-container-08 img{
-    width:100%;
+    width:104%;
+    height: 164px ;
 }
 
 .cat-container-08 .section-tittle{
@@ -825,7 +825,6 @@ font-weight: bold;
     background-color: #00aff0;
 }
 
-
  /* styling instagram */
  .cat-container-10 .socials-media .fa-instagram{
     color:white;
@@ -833,9 +832,7 @@ font-weight: bold;
     background-color: #8a3ab9;
 }
 
-
-
-/*************************Styling cathegories container 08 at the hope page for produits*****************/
+/*************************Styling cathegories container 11 at the contact page*****************/
 .cat-container-11{
     max-width: 2300px;
     margin: auto;
@@ -845,7 +842,7 @@ font-weight: bold;
     margin-bottom: 7%;
 }
 
-/*************************Styling cathegories container 08 at the hope page*****************/
+/*************************Styling cathegories container 11 at the contact page*****************/
 .cat-container-11 .col-30 {
     float: left;
     width: 100%;
@@ -872,7 +869,7 @@ font-weight: bold;
 }
 
 .cat-container-11 .subcontact-nous-01{
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     line-height: 1.2;
 }
@@ -2411,27 +2408,40 @@ font-weight: bold;
 
 /*************************Styling cathegories container 10 at the contact page*****************/
 
-.cat-container-10 .col-28, .col-29{
+.cat-container-10 .col-28 {
     width: 100%;
-    margin-bottom: 12%;
+    margin-bottom: 10%;
+    padding-left: 5px;
+    padding-right: 0px;
+    margin-top: -20px;
 }
 
+
+.cat-container-10 .col-29{
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 0px;
+    margin-bottom: 10px;
+}
+
+.cat-container-10 .col-29 img {
+    width: 100%;
+}
 .cat-container-10 .items{
     margin: 4%;
     margin-left: 0%;
-   
+    font-size: 12px;
  }
 
  .cat-container-10 ion-icon {
-    font-size: 25px;
+    font-size: 20px;
     color: green;
     font-weight: bolder;
  }
 
-
  .cat-container-10 .socials-media a i{
     padding: 8px 10px;
-    font-size: 12px;
+    font-size: 10px;
     margin: 1px;
  }
 
@@ -2441,13 +2451,31 @@ font-weight: bold;
 
  .cat-container-10 .contact-nous{
     font-size: 18px;
-    margin-bottom: -8%;
+    margin-top: 4%;
+    margin-bottom: -4%;
 }
 
 .cat-container-10 .subcontact-nous{
-    font-size: 12.5px;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10%;
 }
 
+/*************************Styling cathegories container 11 at the contact page*****************/
+.cat-container-11 .col-30 {
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
+.cat-container-11 .subcontact-nous-01{
+    font-size: 16px;
+}
+
+.cat-container-11 .contact-nous-01{
+    font-size: 28px;
+    text-align: center;
+}
 /*************************Styling cathegories container 12 at the location page*****************/
 .cat-container-12 .col-30, .col-31 {
     width: 100%;
