@@ -2541,7 +2541,8 @@ font-weight: bold;
 
 .cat-container-14 .subabout-us{
     font-size: 15px;
-    margin-bottom: 2%;
+    margin-bottom: -1%;
+    margin-top: -2px;
 }
 
 
@@ -2580,6 +2581,10 @@ font-weight: bold;
 .cat-container-16 .col-37, .col-38, .col-39 {
     width: 100%;
     margin-bottom: 7%;
+}
+
+.cat-container-16 .equipe-01{
+    font-size: 24px;
 }
 
 .cat-container-17 .com-pro{
