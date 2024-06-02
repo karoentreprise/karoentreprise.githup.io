@@ -2599,7 +2599,6 @@ font-weight: bold;
 
 /*************************Styling cathegories container 20 for activity page*****************/
 .cat-container-20 .col-45 {
-    float: left;
     width: 100%;
     height: 250px;
     font-size: 15px;
@@ -2611,6 +2610,19 @@ font-weight: bold;
 
 /*************************Styling cathegories container 21 for mission page*****************/
 
+.cat-container-21{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.cat-container-21 .col-46 {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+
 .cat-container-21 .col-46 li::marker {
     font-size: 22px;
 }
@@ -2620,19 +2632,30 @@ font-weight: bold;
     line-height: 1.8;
 }
 
+.cat-container-21 .section-tittle{
+    font-size: 23px;
+    margin-bottom: -35px;
+    margin-top: 20px;
+}
+
+.cat-container-21 .caract-cles{
+    font-size: 20px;
+    margin-bottom: -7px;
+    color: green;
+}
 
 .cat-container-02 .section-tittle{
-    font-size: 25px;
+    font-size: 23px;
 
 }
 
 .cat-container-03 .section-tittle{
-    font-size: 25px;
+    font-size: 23px;
 
 }
 
 .cat-container-04 .section-tittle{
-    font-size: 25px;
+    font-size: 23px;
 
 }
 
