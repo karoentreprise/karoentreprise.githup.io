@@ -1,0 +1,2950 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Helvetica', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background: #071D35;
+}
+
+.add{
+    color: aliceblue;
+}
+
+.add ul{
+    list-style: none;
+    display: flex;
+}
+
+.add ul li{
+    margin: 0px 7px;
+
+}
+
+.add ul li a{
+    color:aliceblue;
+}
+
+.add ul li a:hover{
+    color: #222;
+}
+
+
+/*---------------------Styling Scroll top button------------------*/
+
+
+
+.scroll-top{
+    position: fixed;
+    width:50px;
+    height: 50px;
+    background:  #FF5000;
+    bottom:40px;
+    right:50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    color:white;
+    font-size: 22px;
+    border-radius: 50px;
+}
+
+/*---------------------Styling contact page button------------------*/
+
+.contact-icon{
+    position: fixed;
+    width:50px;
+    height: 50px;
+    background:  #FF5000;
+    bottom:40px;
+    left:50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    color:white;
+    font-size: 22px;
+    border-radius: 50px;
+}
+
+
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    padding: 30px 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+
+nav ul li a {
+    color:#707070;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin: 11px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: rgb(104, 125, 104);
+    text-decoration: underline solid green 3.5px;
+    text-underline-offset: 0.5em;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 20px 15px;
+    font-size: 16px;
+}
+
+.toggle{
+    font-size: 23px;
+    display: none;
+    justify-items: center;
+}
+
+.toggle ion-icon{
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-weight: 100px;
+    justify-items: center;
+}
+
+.baner {
+      position:relative;
+      width: 100%;
+      color: white;
+      font-weight: bolder;
+      font-size: 25px;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.baner img{
+    width: 100%;
+    margin-bottom:1.5%;
+}
+
+
+.menu-text-items{
+    text-align:center;
+    position: absolute;
+    top:50%;
+    right:50%;
+    transform:translate(50%, -50%);
+    font-family: 'Copperplate Gothic Light';
+    font-weight: bold;
+}
+/********************** Starting Styling Page Homme (index) Content*******************/
+
+/**************Content Page Home styling *************/
+
+.content-home{
+    height: auto;
+    margin: 0 auto -80px; 
+    padding: 0 0 80px;
+    overflow: auto;
+}
+    
+/*************************Styling cathegories container 01 at the hope page*****************/
+.cat-container-01{
+    max-width: 1580px;
+    margin: auto;
+    height: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 4%;
+}
+    
+/***************************Three image containers (use 33.33% for each picture, etc)*******************************/
+.cat-container-01 .col-01, .col-02 {
+    float: left;
+    width: 30%;
+    line-height: 140%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.cat-container-01 .col-03 {
+    float: left;
+    width: 38%;
+    line-height: 140%;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+
+
+/* Clear fload after image containers */
+.cat-container-01 .row-01::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+    
+/***********Setting image width to 100%*****************/
+.cat-container-01 .col-01{
+    margin:auto;
+    justify-items: center;
+}
+
+.cat-container-01 .col-01 img{
+    width: 30%;
+    margin-top:85%;
+    height:auto;
+}
+
+.cat-container-01 .col-02{
+    margin:auto;
+    justify-items: center;
+}
+
+.cat-container-01 .col-02 img{
+    width:100%;
+    height: 850px;
+}
+
+.cat-container-01 .col-03 .header-01{
+    line-height: 2;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+.cat-container-01 .col-03 h2{
+    color:green;
+    font-size: 18px;
+    margin-bottom:2%;
+}
+    
+.cat-container-01 .button {
+    background-color: whitesmoke;
+    border: solid;
+    border-color: green;
+    color: green;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 6px;
+    width:170px;
+}
+
+.cat-container-01 .button1 {
+    border-radius: 23px;
+}
+
+/*************************Styling cathegories container 02 at the hope page for produits*****************/
+ /*************************Styling cathegories container 01 at the hope page*****************/
+
+ .cat-container-02{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom:7%;
+}
+
+/*************************Styling cathegories container 02 at the hope page*****************/
+      
+.cat-container-02 .col-04, .col-05 {
+    position:relative;
+    float: left;
+    width: 50%;
+    line-height: 140%;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.cat-container-02 .section-tittle{
+    color:green;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.section-tittle-line{
+    width: 10%;
+    height: 5px;
+    border: 0 none;
+    margin-top: 6px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+}
+
+
+.cat-container-02 .col-04 img {
+    width: 100%;
+    text-align: center;
+    height: 400px;
+}
+
+.cat-container-02 .col-05 img {
+    width: 100%;
+    text-align: center;
+    height: 400px;
+}
+
+/* Clear floats after the columns */
+
+.cat-container-02 .row-02:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-02 .produit-01, .produit-02 {
+    position: absolute;
+    top: 60%; 
+    left: 46%; 
+    height: 70%;
+    width:90%;
+    transform: translate(-50%, -50%); 
+    background-color: #112a4b; 
+    text-align:left;
+    opacity: 0.8;
+    font-family: 'Montserrat';
+}
+
+
+.cat-container-02 .text-produit{
+    margin-top: 3%;
+    margin-left: 3%;
+    color: #fff; 
+    font-size: 30px; 
+}
+
+
+.cat-container-02 .subtext-produit{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 5%;
+    color: #fff; 
+    font-size: 18px; 
+    font-family: 'Open Sans';
+}
+
+
+.cat-container-02 .button {
+    background-color: #FF5000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 6px;
+    width:170px;
+    margin-left: 40%;
+    font-weight: bold;
+}
+
+.cat-container-02 .button1 {
+    border-radius: 10px;
+}
+
+
+ /*************************Styling cathegories container 03 at the hope page for produits*****************/
+.cat-container-03{
+   max-width: 1600px;
+   margin: auto;
+   height: auto;
+   padding-left: 25px;
+   padding-right: 25px;
+   margin-bottom: 3%;
+}
+
+ /*************************Styling cathegories container 03 at the hope page*****************/
+.cat-container-03 .col-06, .col-07, .col-08 {
+    float: left;
+    width: 33.33%;
+    line-height: 140%;
+    padding-left: 18px;
+    padding-right: 18px;
+    justify-items: center;
+    text-align: center;
+}
+
+.cat-container-03 .col-06 img {
+    width: 33.33%;
+  }
+
+.cat-container-03 .col-07 img {
+    width: 33.33%;
+}
+
+.cat-container-03 .col-08 img {
+    width: 33.33%;
+}
+
+.cat-container-03 .subcenter-text{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.cat-container-03 .section-tittle{
+    color:green;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+/* Clear floats after the columns */
+
+.cat-container-03 .row-03:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.cat-container-03 .mission h2{
+    color:green;
+    text-align: center;
+}
+
+/*************************Styling cathegories container 04 at the hope page for produits*****************/
+.cat-container-04{
+   max-width: 2300px;
+   margin: auto;
+   height: auto;
+   padding-left: 25px;
+   padding-right: 25px;
+   margin-bottom: 5%;
+}
+
+/*************************Styling cathegories container 04 at the hope page*****************/
+.cat-container-04 .col-09, .col-10, .col-11 {
+    float: left;
+    width: 33.33%;
+    line-height: 140%;
+    padding-left: 12px;
+    padding-right: 12px;
+    justify-items: center;
+    text-align: center;
+}
+
+.cat-container-04 .activite-tittle{
+    font-size: 15px;
+    font-weight: bold;
+    color: #222;
+}
+
+.cat-container-04 .section-tittle{
+color:green;
+text-align: center;
+font-size: 34px;
+font-weight: bold;
+}
+
+.cat-container-04 .activite h2{
+    color:green;
+    text-align: center;
+}
+
+.cat-container-04 .col-09 img {
+    width: 100%;
+    height: 250px;
+}
+
+.cat-container-04 .col-10 img {
+    width: 100%;
+    height: 250px;
+}
+
+.cat-container-04 .col-11 img {
+    width: 100%;
+    height: 250px;
+}
+
+
+/* Clear floats after the columns */
+
+.cat-container-04 .row-04:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-04 .mission h2{
+    color:green;
+    text-align: center;
+}
+
+.cat-container-04 .subactivite{
+    font-size: 12px;
+    color: #4F4F4F;
+    text-align: justify;
+}
+
+/*************************Styling cathegories container 05 at the hope page for produits*****************/
+ .cat-container-05{
+    max-width: 2500px;
+    margin: auto;
+    height: auto;
+    padding-left: 0x;
+    padding-right: 0px;
+    margin-bottom: 6%;
+    background-color: green;
+    margin-bottom: 6%;
+}
+
+/*************************Styling cathegories container 05 at the hope page*****************/
+.cat-container-05 .col-12 {
+    float: left;
+    width: 100%;
+    height: 250px;
+    font-size: 25px;
+    text-align: center;
+    padding: 70px;
+    color: aliceblue;
+ 
+}
+
+
+/* Clear floats after the columns */
+.cat-container-05 .row-05:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-05 .button2 {
+    border-radius: 10px;
+}
+
+.cat-container-05 .button {
+   background-color: whitesmoke;
+   border: solid;
+   border-color: green;
+   color: green;
+   padding: 15px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 15px;
+   margin: 6px 6px;
+   width:170px;
+}
+      
+/*************************Styling cathegories container 06 at the hope page*****************/
+
+.cat-container-06 .section-tittle {
+   color: green;
+   text-align: center;
+   font-size: 34px;
+   font-weight: bold;
+}
+
+.cat-container-06 .blog-tittle-01{
+    font-size: 14px;
+    font-weight: bold;
+    color: #222;
+}
+
+        
+.cat-container-06 .center-blog {
+   text-align: center;
+   font-size: 28px;
+   color: #4F4F4F;
+}
+
+        
+/*************************Styling cathegories container 06 at the hope page for produits*****************/
+.cat-container-06{
+   max-width: 2300px;
+   margin: auto;
+   height: auto;
+   padding-left: 25px;
+   padding-right: 25px;
+   margin-bottom: 7%;
+}
+
+/*************************Styling cathegories container 06 at the hope page*****************/
+.cat-container-06 .col-13, .col-14, .col-15 {
+   float: left;
+   width: 33.33%;
+   line-height: 140%;
+   padding-left: 12px;
+   padding-right: 12px;
+   justify-items: center;
+   text-align: center;
+}
+
+.cat-container-06 .savoir-plus{
+   font-size: 20px;
+   color: rgb(14, 81, 14);
+   font-weight: bold;
+}
+
+
+.cat-container-06 .col-13 img {
+    width: 100%;
+    height: 250px;
+}
+
+.cat-container-06 .col-14 img {
+    width: 100%;
+    height: 250px;
+}
+
+.cat-container-06 .col-15 img {
+    width: 100%;
+    height: 250px;
+}
+
+.cat-container-06 .center-text{
+    text-align: justify;
+    color: #4F4F4F;
+    font-size: 12px;
+}
+
+
+/* Clear floats after the columns */
+
+.cat-container-06 .row-06:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*************************Styling cathegories container 07 at the hope page for produits*****************/
+.cat-container-07{
+    max-width: 1500px;
+    margin: auto;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 5%;
+}
+
+/*************************Styling cathegories container 07 at the hope page*****************/
+.cat-container-07 .col-16, .col-17 {
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+    height: 300px;
+    line-height: 140%;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.cat-container-07 .col-16{
+    padding-left: 20%;
+}
+
+.cat-container-07 .col-17{
+    padding-left: 2.5%;
+}
+
+
+.cat-container-07 .col-17 .fa-quote-left {
+    font-size:48px;
+    color:green;
+    justify-items: right;
+}
+
+.cat-container-07 .col-17{
+    background-color: #E2EFD9;
+}
+
+.cat-container-07 .temoigne {
+    font-size: 34px;
+    color: green;
+    font-weight: bolder;
+}
+
+/* Clear floats after the columns */
+
+.cat-container-07 .row-07:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*************************Styling cathegories container 08 at the hope page for produits*****************/
+.cat-container-08{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 2%;
+}
+
+/*************************Styling cathegories container 08 at the hope page*****************/
+.cat-container-08 .col-18, .col-19, .col-20, .col-21, .col-22, .col-23 {
+    float: left;
+    width: 16.66%;
+    height: 170px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+}
+
+.cat-container-08 img{
+    width:104%;
+    height: 164px ;
+}
+
+.cat-container-08 .section-tittle{
+    color:green;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.cat-container-08 .partner-01 {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Clear floats after the columns */
+
+.cat-container-08 .row-08:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/**********************End Starting Styling Page Homme (index) Content*******************/
+
+
+
+/**********************Styling Contact page*******************/
+
+
+/*************************Styling cathegories container page 10 for produits******************/
+.cat-container-10{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 7%;
+}
+
+/*************************Styling cathegories container  page 10 for produits*****************/
+.cat-container-10 .col-28, .col-29 {
+    float: left;
+    width: 50%;
+    height: 20%;
+    line-height: 140%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+
+
+/* Clear floats after the columns */
+
+.cat-container-10 .row-10:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.cat-container-10 .contact-nous{
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.cat-container-10 .subcontact-nous{
+    font-size: 22px;
+}
+
+.cat-container-10 img{
+    width: 70%;
+}
+
+
+.cat-container-10 .items{
+    margin: 7%;
+    margin-left: 42%;
+   
+ }
+
+ .cat-container-10 ion-icon {
+    font-size: 35px;
+    color: green;
+    font-weight: bolder;
+ }
+
+
+ .cat-container-10 .socials-media a i{
+    padding: 8px 10px;
+    font-size: 14px;
+    margin: 10px;
+ }
+
+ .cat-container-10 .socials-media {
+    margin-left: 42%;
+ }
+
+
+  /* styling facebook */
+.cat-container-10 .socials-media .fa-facebook{
+    color:white;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+ /* styling twitter */
+.cat-container-10 .socials-media .fa-twitter{
+    color:white;
+    border-radius: 50%;
+    background-color: #1DA1F2;
+}
+
+ /* styling linkedin */
+.cat-container-10 .socials-media .fa-linkedin{
+    color:white;
+    border-radius: 50%;
+    background-color: #0a66c2;
+}
+
+ /* styling youtube */
+.cat-container-10 .socials-media .fa-youtube-play{
+    color:white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+ /* styling skype */
+ .cat-container-10 .socials-media .fa-skype{
+    color:white;
+    border-radius: 50%;
+    background-color: #00aff0;
+}
+
+ /* styling instagram */
+ .cat-container-10 .socials-media .fa-instagram{
+    color:white;
+    border-radius: 50%;
+    background-color: #8a3ab9;
+}
+
+/*************************Styling cathegories container 11 at the contact page*****************/
+.cat-container-11{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 7%;
+}
+
+/*************************Styling cathegories container 11 at the contact page*****************/
+.cat-container-11 .col-30 {
+    float: left;
+    width: 100%;
+    height: 20%;
+    line-height: 140%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+
+/* Clear floats after the columns */
+
+.cat-container-11 .row-11:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.cat-container-11 .contact-nous-01{
+    font-size: 34px;
+    text-align: center;
+}
+
+.cat-container-11 .subcontact-nous-01{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+
+/**********************Starting of footer page*******************/
+
+.footer-section{
+    border-style: solid;
+    height: 600px;
+    background-color: #071D35;
+    border-color: #071D35;
+}
+
+/*************************Styling cathegories container 09 at the footer page for produits*****************/
+.cat-container-09{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 5px;
+    margin-bottom: 7%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ /*************************Styling cathegories container 09 at the footer page*****************/
+ .cat-container-09 .col-24, .col-27 {
+    float: left;
+    width: 25%;
+    line-height: 140%;
+    padding-left: 14px;
+    padding-right: 10px;
+ }
+
+ .cat-container-09 .col-25 {
+    float: left;
+    width: 17%;
+    line-height: 140%;
+    padding-left: 12px;
+    padding-right: 12px;
+ }
+
+ .cat-container-09 .col-26{
+    float: left;
+    width: 32%;
+    line-height: 140%;
+    padding-left: 12px;
+    padding-right: 12px;
+ }
+
+
+ .cat-container-09 .logo-karo{
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    text-align: center;
+ }
+
+ .cat-container-09 .overview-01{
+    color: white;
+    font-size: 14.5px;
+ }
+
+ .cat-container-09 .footer-header-text{
+    color: white;
+ }
+
+ .cat-container-09 .col-25 ul{
+    list-style: none;
+    color: #fff;
+    line-height: 1.1;
+ }
+
+
+ .cat-container-09 .col-25 ul li a{
+    list-style: none;
+    color: white;
+ }
+
+ .cat-container-09 .col-26 {
+    float: left;
+    width: 28%;
+    line-height: 140%;
+    padding-left: 12px;
+    padding-right: 12px;
+ }
+
+
+ .cat-container-09 .col-24 {
+    text-align: justify;
+ }
+
+
+ .cat-container-09 .col-24 img{
+    width: 30%;
+    height: 30%;
+    margin-left: 25%;
+ }
+
+.cat-container-09 .col-24 p{
+    line-height: 1.6;
+}
+
+ .cat-container-09 .socials-media {
+    margin-left: 10%;
+ }
+
+
+ .footer-bottom{
+    padding: 25px;
+    background: green;
+    color:whitesmoke;
+    font-size:14px;
+    text-align: center;
+}
+
+ /**********************Styling Location page*******************/
+
+
+/*************************Styling cathegories container 12 at the location page for produits*****************/
+.cat-container-12{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 1%;
+}
+
+/*************************Styling cathegories container 12 at the location page*****************/
+.cat-container-12 .col-30, .col-31 {
+    float: left;
+    width: 50%;
+    height: 20%;
+    line-height: 140%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+/* Clear floats after the columns */
+
+.cat-container-12 .row-12:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-12 .title-location{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.cat-container-12 .subtittle-location{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.cat-container-12 .col-30 img{
+    padding-left: 30%;
+    width: 100%;
+}
+
+.cat-container-12 .items{
+    margin: 15px;
+ }
+
+ .cat-container-12 ion-icon {
+    font-size: 20px;
+    color: #ff6700;
+    font-weight: bolder;
+ }
+
+ /*************************Styling cathegories container 13 at the hope page for produits*****************/
+.cat-container-13{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************************Styling cathegories container 12 at the location page*****************/
+.cat-container-13 .col-32 {
+    float: left;
+    width: 100%;
+    height: 20%;
+    line-height: 140%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Clear floats after the columns */
+
+.cat-container-13 .row-13:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-13 .col-32 iframe{
+    width:100%;
+    height: 500px;
+}
+
+
+/*************************Styling cathegories container 13 at the hope page for produits*****************/
+.cat-container-14{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*************************Styling cathegories container 14 at the A propos page*****************/
+.cat-container-14 .col-33 {
+    float: left;
+    width: 100%;
+    height: 20%;
+    line-height: 140%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Clear floats after the columns */
+
+.cat-container-14 .row-14:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.cat-container-14 .about-us{
+    color: green;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.cat-container-14 .subabout-us{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cat-container-14 .about-us-01{
+    line-height: 1.8;
+    text-align:justify;
+}
+
+/*************************Styling cathegories container 15 propos page*****************/
+.cat-container-15{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*************************Styling cathegories container 15 at the A propos page*****************/
+.cat-container-15 .col-35, .col-36 {
+    float: left;
+    width: 50%;
+    height: 20%;
+    line-height: 140%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Clear floats after the columns */
+
+.cat-container-15 .row-15:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-15 .col-36 img{
+    width: 70%;
+}
+
+.cat-container-15 .col-35 .subabout-us-02{
+    line-height: 1.8;
+    text-align:justify;
+}
+
+.cat-container-15 .subabout-us-01{
+   color: green;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+
+/*************************Styling cathegories container 16 propos page*****************/
+.cat-container-16{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************************Styling cathegories container 16 at the A propos page*****************/
+.cat-container-16 .col-37, .col-38, .col-39 {
+    float: left;
+    width: 33.33%;
+    height: 10%;
+    line-height: 140%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Clear floats after the columns */
+
+.cat-container-16 .row-16:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-16 .col-37 img{
+    width: 100%;
+    height: 10%;
+}
+
+.cat-container-16 .col-38 img{
+    width: 100%;
+    height: 10%;
+}
+
+.cat-container-16 .col-39 img{
+    width: 100%;
+    height: 10%;
+}
+
+.cat-container-16 .equipe-01{
+    color: green;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cat-container-16 .equipe-02{
+    font-size: 11px;
+    text-align: center;
+}
+
+.cat-container-16 .equipe-03{
+    font-size: 15px;
+    text-align: center;
+}
+
+/*************************Styling cathegories container 17 propos page*****************/
+.cat-container-17{
+    max-width: 2500px;
+    margin: auto;
+    height: auto;
+    padding-left: 0x;
+    padding-right: 0px;
+    margin-bottom: 6%;
+    background-color: green;
+    margin-bottom: 0%;
+}
+
+/*************************Styling cathegories container 17 at the A propos page*****************/
+.cat-container-17 .col-40 {
+    float: left;
+    width: 100%;
+    height: 320px;
+    font-size: 22px;
+    text-align: center;
+    padding: 40px;
+    color: aliceblue;
+    margin-bottom: 0%;
+}
+
+/* Clear floats after the columns */
+
+.cat-container-17 .row-17:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-17 .com-pro{
+    font-size: 34px;
+    color:white;
+    font-weight: bold;
+}
+
+.cat-container-17 .com-pro-01{
+    font-size: 20px;
+    color:white;
+}
+
+.cat-container-17 .button2 {
+    border-radius: 15px;
+}
+
+.cat-container-17 .button {
+   background-color: whitesmoke;
+   border: solid;
+   border-color: green;
+   color: green;
+   padding: 15px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 15px;
+   margin: 6px 6px;
+   width:170px;
+}
+
+
+/*************************Styling cathegories container 18 at the page Activites*****************/
+.cat-container-18{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 7%;
+}
+
+/*************************Styling cathegories container 08 at the hope page*****************/
+.cat-container-18 .col-41, .col-42 {
+    float: left;
+    width: 50%;
+    height: 20%;
+    line-height: 140%;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+}
+
+
+/* Clear floats after the columns */
+
+.cat-container-18 .row-18:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-18 .col-41 img {
+    width: 70%;
+    margin-left: 20%;
+}
+
+.cat-container-18 .col-42 .sub-activite-01 {
+   color: #FF5000;
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 4%;
+}
+
+.cat-container-18 .col-42 {
+    margin-top: 8%;
+ 
+ }
+
+.cat-container-18 .col-42 .sub-activite-02 {
+    font-size: 15px;
+    line-height: 2.3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+ }
+
+ .cat-container-19 .col-43 .sub-activite-02 {
+    font-size: 15px;
+    line-height: 2.3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+ }
+
+ 
+/*************************Styling cathegories container 19 at the page Activites*****************/
+.cat-container-19{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 12%;
+    padding-right: 8%;
+    margin-bottom: 3%;
+}
+
+/*************************Styling cathegories container 19 at activity page*****************/
+.cat-container-19 .col-43, .col-44 {
+    float: left;
+    width: 50%;
+    height: 20%;
+    line-height: 140%;
+    padding-right: 10%;
+    justify-content: center;
+}
+
+
+/* Clear floats after the columns */
+
+.cat-container-19 .row-19:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-19 .col-44 img {
+    width: 100%;
+}
+
+.cat-container-19 .col-43 li::marker {
+    color: #FF5000;
+    font-size: 30px;
+    line-height: 3;
+    font-weight: bolder;
+}
+
+.cat-container-19 .col-43 li{
+    color: green;
+    font-size: 30px;
+    line-height: 3;
+    font-weight: bolder;
+}
+
+
+
+/*************************Styling cathegories container 20 at the hope page for activity*****************/
+.cat-container-20{
+    max-width: 2500px;
+    margin: auto;
+    height: auto;
+    padding-left: 0x;
+    padding-right: 0px;
+    margin-bottom: 6%;
+    background-color: green;
+    margin-bottom: 0%;
+}
+
+/*************************Styling cathegories container 20 for activity page*****************/
+.cat-container-20 .col-45 {
+    float: left;
+    width: 100%;
+    height: 250px;
+    font-size: 25px;
+    text-align: center;
+    padding: 70px;
+    color: aliceblue;
+ 
+}
+
+
+/* Clear floats after the columns */
+.cat-container-20 .row-20:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-20 .button2 {
+    border-radius: 10px;
+}
+
+.cat-container-20 .button {
+   background-color: whitesmoke;
+   border: solid;
+   border-color: green;
+   color: green;
+   padding: 15px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 15px;
+   margin: 6px 6px;
+   width:170px;
+}
+
+
+/*************************Styling cathegories container 21 at the page mission*****************/
+
+.cat-container-21{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 3%;
+}
+
+/*************************Styling cathegories container 21 at mission page*****************/
+.cat-container-21 .col-46 {
+    float: left;
+    width: 100%;
+    height: 20%;
+    line-height: 140%;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: center;
+}
+
+
+/* Clear floats after the columns */
+
+.cat-container-21 .row-21:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.cat-container-21 .section-tittle{
+    color:green;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.cat-container-21 .mission-initiative{
+    color:green;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cat-container-21 .col-46 li::marker {
+    color: #FF5000;
+    font-size: 30px;
+    line-height: 3;
+    font-weight: bolder;
+}
+
+.cat-container-21 .col-46 li{
+    color: black;
+    font-size: 22px;
+    line-height: 3;
+    font-weight: bolder;
+}
+
+.cat-container-21 .special{
+    line-height: 2;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.cat-container-21 .sub-mission-04{
+    text-align: justify;
+}
+
+.cat-container-21 .section-subtittle{
+    line-height: 2;
+    text-align: justify;
+}
+
+
+/*************************Styling cathegories container 22 at the page impact*****************/
+
+.cat-container-22{
+    max-width: 3000px;
+    margin: auto;
+    height: auto;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-bottom: 3%;
+}
+
+/*************************Styling cathegories container 22 at impact page*****************/
+.cat-container-22 .col-47 {
+    float: left;
+    width: 105%;
+    height: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+}
+
+
+/* Clear floats after the columns */
+
+.cat-container-22 .row-22:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.cat-container-22 .section-tittle{
+    color:green;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 40PX;
+}
+
+.cat-container-22 .subsection-tittle-01{
+    font-size: 32px;
+    margin-bottom: 4%;
+    text-align: left;
+    
+}
+
+.cat-container-22 .subsection-tittle-02{
+    font-size: 28px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+
+/*************************Styling cathegories container 23 at the page impact*****************/
+
+.cat-container-23{
+    max-width: 2300px;
+    margin: auto;
+    height: 260px;
+    padding-left: 15%;
+    margin-bottom: 3%;
+}
+
+.cat-container-23 .row-23{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+/*************************Styling cathegories container 23 at impact page*****************/
+.cat-container-23 .col-48, .col-49, .col-50 {
+    width: 25%;
+    height: 245px;
+    text-align: center;
+    color: #555;
+}
+
+
+/* Clear floats after the columns */
+
+.cat-container-23 .row-23:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-23 .counter-box{
+    width: 290px;
+    height: 243px;
+    background: #fff;
+    padding: 30px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 20px -4px #66676c;
+}
+
+
+.cat-container-23 .counter-box .fa{
+    font-size: 45px;
+    color: green;
+    display: block;
+}
+
+.cat-container-23 .counter-box .fas{
+    font-size: 45px;
+    color: green;
+    display: block;
+}
+
+.cat-container-23 h2 {
+    margin: 12px 0;
+    font-size: 30px;
+    color: #000;
+}
+
+
+.cat-container-23 span {
+    margin: 8px 0;
+    font-size: 40px;
+    color: #000;
+}
+
+/*************************Styling cathegories container 24 at the page impact*****************/
+
+
+.cat-container-24{
+    max-width: 2300px;
+    margin: auto;
+    height: 260px;
+    padding-left: 15%;
+    margin-bottom: 3%;
+}
+
+.cat-container-24 .row-24{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+/*************************Styling cathegories container 23 at impact page*****************/
+.cat-container-24 .col-51, .col-52, .col-53 {
+    width: 25%;
+    height: 245px;
+    text-align: center;
+    color: #555;
+}
+
+
+/* Clear floats after the columns */
+
+.cat-container-24 .row-24:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-24 .counter-box{
+    width: 290px;
+    height: 243px;
+    background: #fff;
+    padding: 30px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 20px -4px #66676c;
+}
+
+
+.cat-container-24 .counter-box .fa{
+    font-size: 45px;
+    color: green;
+    display: block;
+}
+
+.cat-container-24 h2 {
+    margin: 12px 0;
+    font-size: 30px;
+    color: #000;
+}
+
+
+.cat-container-24 span {
+    margin: 8px 0;
+    font-size: 40px;
+    color: #000;
+}
+
+/*************************Styling cathegories container 25 at impact page*****************/
+
+.cat-container-25{
+    max-width: 2300px;
+    margin: auto;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 7%;
+    margin-bottom: 3%;
+}
+
+.cat-container-25 .col-54, .col-55 {
+    float: left;
+    width: 50%;
+    height: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+}
+
+/* Clear floats after the columns */
+
+.cat-container-25 .row-25:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-25 .subsection-tittle-01{
+    font-size: 30px;
+    margin-bottom: 2%;
+    text-align: left;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.cat-container-25 img{
+    width: 80%;
+    margin-top: 100px;
+}
+
+.cat-container-25 .col-54 li::marker {
+    color: #FF5000;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: bolder;
+}
+
+.cat-container-25 .col-54 li{
+    color: green;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+.cat-container-25 .col-54 ul{
+    margin-left: 140px;
+}
+
+
+.cat-container-25 .impact-items{
+    text-align: justify;
+    line-height: 1.4;
+}
+
+/*************************************Footer section of the website page********************/
+ /****************************footer main menu************************************/
+
+ .cat-container-09 .col-25{
+    list-style: none;
+ }
+
+ .cat-container-09 .col-25 h2{
+    margin-bottom: 40px;
+    margin-left: 35%;
+ }
+
+
+ .cat-container-09 .col-26 h2{
+    margin-bottom: 30px;
+ }
+
+ .cat-container-09 .items{
+    color:white;
+    padding: 10px;
+    margin-left: 1%;
+ }
+
+
+
+ .cat-container-09 ion-icon {
+    font-size: 20px;
+    color: #ff6700;
+    font-weight: bolder;
+ }
+
+ .contact-text-01{
+    color:white;
+ }
+
+ .cat-container-09 .col-27 h2{
+    margin-bottom: 40px;
+ }
+
+
+ .cat-container-09 .title-sub {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  
+ .cat-container-09 .text-sub {
+    font-size: 1rem;
+    margin-bottom: 0.8em;
+  }
+
+  .cat-container-09 .mail {
+    padding: 0.5em 0 0.5em 1.5em;
+    line-height: 3;
+    width: 60%;
+    border: 1px solid #d9d9d9;
+    border-radius: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  
+  .cat-container-09 .subscribe {
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: 400;
+    background-color: green;
+    padding: 0.9em 0;
+    display: inline-block;
+    border: none;
+    border-radius: 1.5em;
+    width: 40%;
+    margin-bottom: 1.3em;
+  }
+  
+  .cat-container-09 .text-sub {
+    font-size: 0.9rem;
+    width: 90%;
+    text-align: center;
+  }
+
+
+ /* Clear floats after the columns */
+
+.cat-container-09 .row-09:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-container-09 li a {
+    display:inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 7px;
+    margin-left: 40%;
+    color:#222;
+}
+
+
+.cat-container-09 .socials-media a i{
+   padding: 8px 10px;
+   font-size: 10px;
+   margin: 3px;
+}
+
+.cat-container-09 .col-25 a:hover,
+.cat-container-09 .col-25 a.active {
+    color: green;
+    text-decoration: underline solid #ff6700 3.5px;
+    text-underline-offset: 0.5em;
+}
+
+ /* styling facebook */
+.cat-container-09 .socials-media .fa-facebook{
+    color:white;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+ /* styling twitter */
+.cat-container-09 .socials-media .fa-twitter{
+    color:white;
+    border-radius: 50%;
+    background-color: #1DA1F2;
+}
+
+ /* styling linkedin */
+.cat-container-09 .socials-media .fa-linkedin{
+    color:white;
+    border-radius: 50%;
+    background-color: #0a66c2;
+}
+
+ /* styling youtube */
+.cat-container-09 .socials-media .fa-youtube-play{
+    color:white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+ /* styling skype */
+ .cat-container-09 .socials-media .fa-skype{
+    color:white;
+    border-radius: 50%;
+    background-color: #00aff0;
+}
+
+
+ /* styling instagram */
+ .cat-container-09 .socials-media .fa-instagram{
+    color:white;
+    border-radius: 50%;
+    background-color: #8a3ab9;
+}
+
+
+.cat-container-09 .contact-items{
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+  .icon{
+    vertical-align: middle;
+  }
+  
+
+
+@media only screen and (max-width: 600px){
+
+
+    /*---------------------Styling Scroll top button------------------*/
+
+
+
+.scroll-top{
+    width:40px;
+    height: 40px;
+    bottom:20px;
+    right:80px;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+/*---------------------Styling contact page button------------------*/
+
+.contact-icon{
+    width:40px;
+    height: 40px;
+    bottom:20px;
+    left:80px;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+
+
+
+
+  .add_01{
+    display: none;
+    }
+
+ .logo img{
+        max-width: 32%;
+        max-height: 32%
+    }
+
+    /*------------Navigation styling position to relative------------------*/
+    nav {
+        position:relative;
+        padding: 15px 35px;
+        display: block;
+        background: green;
+    }
+
+  
+    nav li {
+        margin: 14px;
+        line-height: 1.5;
+        justify-content: center;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+        color: white;
+        text-decoration: underline solid #ff6700 3.5px;
+        text-underline-offset: 0.5em;
+    }
+    
+   
+    /*------------Styling main menu ------------------*/
+
+    .menu{
+        display: none;
+        margin-top: 35px;
+        height: auto;
+        padding: 20px;
+        margin: 0px;
+        justify-content: center;
+    }
+
+    .menu a{
+        color: black;
+        margin: 16px;
+    }
+
+    .menu ul li{
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .menu.active, .toggle{
+        display: block;
+    }
+
+    .toggle{
+        top: -0.22px;
+        right: 8%;
+        justify-content: center;
+        position: absolute;
+    }
+
+    /*------------Set image header at 100%------------------*/
+
+    .baner img{
+        width: 100%;
+    }
+
+     /*------------Starting Home page Styling Cathegory container 01------------------*/
+
+
+     /*------------Styling column containing recycling image at 100%------------------*/
+
+    .cat-container-01 .col-01{
+        width: 100%;
+        margin-top:-72%;
+	    height:auto;
+        margin-bottom: 2%;
+    }
+
+    .cat-container-01 .col-01 h2{
+        font-size: 14px;
+    }
+
+    .cat-container-01 .col-01 img{
+        width: 20%;
+    }
+
+    .cat-container-01 .col-02 img{
+        width: 70%;
+        height: 50%;
+    }
+
+      /*------------Styling Baner text at header of the page------------------*/
+
+    .menu-text-items{
+       font-size: 8px;
+    }
+
+    /*------------Styling column containing image at 100%------------------*/
+
+    .cat-container-01 .col-02 {
+        width: 100%;
+        margin-bottom: 7%;
+    }
+   
+    .cat-container-01 .col-03 {
+        width: 100%;
+        margin-bottom: 7%;
+    }
+
+    /*------------Section 2 Styling column containing image at 100%------------------*/
+    .cat-container-02 .col-04  {
+        width: 100%;
+    }
+
+    .cat-container-02 .product h2{
+        margin-bottom: 1%;
+    }
+
+    .cat-container-02 .col-05  {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .cat-container-02 .col-04 img  {
+        width: 100%;
+        height: 250px;
+    }
+
+    .cat-container-02 .col-05 img  {
+        width: 100%;
+        height: 250px;
+    }
+
+
+    /*----------------------------*/
+
+    .cat-container-02 .produit-01, .produit-02 {
+        position: absolute;
+        top: 50%; 
+        left: 46%;
+        width:86%;
+        height: 84%;
+        margin-bottom: 0%;
+    }
+    
+    .cat-container-02 .produit-01 {
+        margin-bottom: 0%;
+    }
+    
+    .cat-container-02 .text-produit{
+        font-size: 18px; 
+        margin-bottom: -4%;
+    }
+    
+    
+    .cat-container-02 .subtext-produit{
+        font-size: 11px; 
+        margin-bottom: -4%;
+    }
+    
+    
+    .cat-container-02 .button {
+        background-color: #FF5000;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        display: inline-block;
+        font-size: 11px;
+        margin: 4px 4px;
+        width:115px;
+        height: 45px;
+        margin-left: 30%;
+        font-weight: bold;
+    }
+    
+    .cat-container-02 .button1 {
+        border-radius: 10px;
+    }
+    
+    
+/*------------Section 3 Styling column containing image at 100%------------------*/
+      .cat-container-03 .col-06  {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .cat-container-03 .col-07   {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .cat-container-03 .col-08  {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+   .cat-container-03 .subcenter-text{
+       margin-top: -45px;
+   }
+
+/*------------Section 4 Styling column containing image at 100%------------------*/
+    .cat-container-04 .col-09  {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    
+    .cat-container-04 .col-10   {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    
+    .cat-container-04 .col-11   {
+        width: 100%;
+    }
+    
+    .cat-container-04 .col-09 img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .cat-container-04 .col-10 img  {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .cat-container-04 .col-11 img {
+        width: 100%;
+        height: 200px;
+    }
+
+  /*------------Section 5 Styling column of nos activites ------------------*/
+    .cat-container-05 .col-12 {
+        float: left;
+        width: 100%;
+        height: 220px;
+        font-size: 22px;
+        text-align: center;
+        padding: 40px;
+        color: aliceblue;
+        margin-bottom: 10%;
+    }
+
+  
+
+/*------------Section 6 Styling column containing image at 100%------------------*/
+   .cat-container-06 {
+        margin-bottom: 15%;
+    }
+    .cat-container-06 .col-13, .col-14 {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .cat-container-06 .col-15   {
+        width: 100%;
+    }
+
+    .cat-container-06 .col-13 img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .cat-container-06 .col-14 img  {
+        width: 100%;
+        height: 200px;
+    }
+
+    .cat-container-06 .col-15 img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .cat-container-06 .center-blog{
+       text-align: center;
+       font-size: 20px;
+    }
+    
+    .cat-container-06 .blog{
+        text-align: center;
+        font-size: 15px;
+        color: #ff00c8;
+     }
+
+    .cat-container-06 .savoir-plus{
+       font-size: 18px;
+       color: green;
+       font-weight: bold;
+    }
+
+ 
+
+    /********************/
+    /*************************Styling cathegories container 07 at the hope page*****************/
+    .cat-container-07 .col-16{
+       float: left;
+       width: 100%;
+       height: 150px;
+       line-height: 140%;
+       padding-left: 18px;
+       padding-right: 18px;
+    }
+
+    .cat-container-07 .col-17 {
+        float: left;
+        width: 100%;
+        height: 300px;
+        line-height: 140%;
+        padding-left: 18px;
+        padding-right: 18px;
+     }
+    
+     .cat-container-07 .col-17 .fa-quote-left {
+        font-size:35px;
+    }
+    
+    .cat-container-07 .temoigne {
+        font-size: 25px;
+        color: green;
+        font-weight: bold;
+    }
+
+    /*************************Styling cathegories container 08 at the hope page*****************/
+    .cat-container-08 .col-18, .col-19, .col-20, .col-21, .col-22, .col-23 {
+       width: 100%;
+       height: 100%;
+       justify-content: center;
+       padding-left: 5%;
+       margin-bottom: 20px;
+    }
+
+    .cat-container-08 img{
+      width:100%;
+      height: 100%;
+   }
+
+
+    /*************************Styling cathegories container 09 at the footer page*****************/
+ .cat-container-09 .col-24, .col-25, .col-26, .col-27 {
+    width: 100%;
+    margin-bottom: 12%;
+ }
+
+ .cat-container-09 .col-25 {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+
+ .cat-container-09{
+    padding-left: 10px;
+    padding-right: 5px;
+ }
+
+ .cat-container-09 .logo-karo{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 6%;
+    margin-bottom: 1%;
+ }
+
+ /*************************Footer section*****************/
+ .footer-section{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #071D35;
+    border-color: #071D35;
+ }
+
+
+
+ .cat-container-09 .col-24, .col-25, h2 {
+    width: 100%;
+    margin-bottom: 12%;
+ }
+
+
+ .cat-container-09 .socials-media{
+    margin-left: 0%;
+ }
+
+ .cat-container-09 .col-25 h2{
+    margin-bottom: 20px;
+    margin-left: 30%;
+ }
+
+ .cat-container-09 ion-icon {
+    font-size: 22px;
+ }
+
+ .cat-container-09 li a {
+    margin-left: 10%;
+    
+}
+
+.cat-container-09 .col-26 {
+    width: 100%;
+} 
+
+.footer-bottom{
+    padding: 10px;
+    font-size:11px;
+}
+
+.cat-container-09 .subscribe {
+    font-size: 11px;
+    font-weight: 0;
+    border-radius: 1.5em;
+  }
+  
+.cat-container-09 .mail {
+    padding: 0.5em 0 0.5em 1.5em;
+    line-height: 1.5;
+    width: 60%;
+  }
+
+.cat-container-09 .footer-header-text{
+   font-size: 18px;
+}
+
+/*************************Styling cathegories container 10 at the contact page*****************/
+
+.cat-container-10 .col-28 {
+    width: 100%;
+    margin-bottom: 10%;
+    padding-left: 5px;
+    padding-right: 0px;
+    margin-top: -20px;
+}
+
+
+.cat-container-10 .col-29{
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 0px;
+    margin-bottom: 10px;
+}
+
+.cat-container-10 .col-29 img {
+    width: 100%;
+}
+.cat-container-10 .items{
+    margin: 4%;
+    margin-left: 0%;
+    font-size: 12px;
+ }
+
+ .cat-container-10 ion-icon {
+    font-size: 20px;
+    color: green;
+    font-weight: bolder;
+ }
+
+ .cat-container-10 .socials-media a i{
+    padding: 8px 10px;
+    font-size: 10px;
+    margin: 1px;
+ }
+
+ .cat-container-10 .socials-media {
+    margin-left: 5%;
+ }
+
+ .cat-container-10 .contact-nous{
+    font-size: 18px;
+    margin-top: 4%;
+    margin-bottom: -4%;
+}
+
+.cat-container-10 .subcontact-nous{
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+
+/*************************Styling cathegories container 11 at the contact page*****************/
+.cat-container-11 .col-30 {
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
+.cat-container-11 .subcontact-nous-01{
+    font-size: 16px;
+}
+
+.cat-container-11 .contact-nous-01{
+    font-size: 28px;
+    text-align: center;
+}
+/*************************Styling cathegories container 12 at the location page*****************/
+.cat-container-12 .col-30, .col-31 {
+    width: 100%;
+}
+
+
+
+.cat-container-12 .title-location{
+    text-align: center;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.cat-container-12 .subtittle-location{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.cat-container-12 .col-30 img{
+    width: 100%;
+    padding-left:5%;
+    margin-bottom: 5%;
+    
+}
+
+
+.cat-container-12 .items{
+    margin: 10px;
+   
+ }
+
+ .cat-container-12 ion-icon {
+    font-size: 15px;
+    color: #ff6700;
+    font-weight: bolder;
+ }
+
+  /*************************Styling cathegories container 13 at the localisation page*****************/
+.cat-container-13{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ /*************************Styling cathegories container 14 at the A propos page*****************/
+
+ .cat-container-14{
+    padding-left: 12px;
+    padding-right: 12px
+}
+
+ .cat-container-14 .col-33 {
+    width: 100%;
+}
+
+.cat-container-14 .col-34{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.cat-container-14 .about-us{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+}
+
+.cat-container-14 .subabout-us{
+    font-size: 15px;
+    margin-bottom: -1%;
+    margin-top: -2px;
+}
+
+
+.cat-container-14 .col-34 video{
+   height: 240px;
+   padding-left: 12px;
+   padding-right: 12px
+}
+ 
+.cat-container-15 .col-35, .col-36 {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.cat-container-09 .items{
+    color:white;
+    font-size: 10px;
+ }
+
+ .cat-container-15{
+    padding-left: 12px;
+    padding-right: 12px
+}
+
+.cat-container-15 .col-36 img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cat-container-15 .subabout-us-01{
+    font-size: 15px;
+    margin-bottom: -20px;
+}
+
+/*************************Styling cathegories container 16 at the A propos page*****************/
+.cat-container-16 .col-37, .col-38, .col-39 {
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.cat-container-16 .equipe-01{
+    font-size: 24px;
+}
+
+.cat-container-17 .com-pro{
+    font-size: 20px;
+}
+
+.cat-container-17 .com-pro-01{
+    font-size: 12px;
+}
+
+
+/*************************Styling cathegories container 18 at the Activites page*****************/
+.cat-container-18 .col-41, .col-42 {
+    width: 100%;
+}
+
+.cat-container-18 .col-41 img {
+    width: 100%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.cat-container-18 .col-42 .sub-activite-01 {
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ /*************************Styling cathegories container 19 at activity page*****************/
+.cat-container-19 .col-43, .col-44 {
+    width: 100%;
+}
+
+.cat-container-19 .col-43 li::marker {
+    font-size: 20px;
+}
+
+.cat-container-19 .col-43 li{
+    font-size: 17px;
+}
+
+.cat-container-19 .col-44 img{
+    width: 100%;
+    margin-top:5%;
+}
+
+/*************************Styling cathegories container 20 for activity page*****************/
+.cat-container-20 .col-45 {
+    width: 100%;
+    height: 250px;
+    font-size: 15px;
+    text-align: center;
+    padding: 70px;
+    color: aliceblue;
+ 
+}
+
+/*************************Styling cathegories container 21 for mission page*****************/
+
+.cat-container-21{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.cat-container-21 .col-46 {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+
+.cat-container-21 .col-46 li::marker {
+    font-size: 22px;
+}
+
+.cat-container-21 .col-46 li{
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.cat-container-21 .section-tittle{
+    font-size: 23px;
+    margin-bottom: -35px;
+    margin-top: 20px;
+}
+
+.cat-container-21 .caract-cles{
+    font-size: 20px;
+    margin-bottom: -7px;
+    color: green;
+}
+
+.cat-container-02 .section-tittle{
+    font-size: 23px;
+
+}
+
+.cat-container-03 .section-tittle{
+    font-size: 23px;
+
+}
+
+.cat-container-04 .section-tittle{
+    font-size: 23px;
+
+}
+
+.cat-container-05 .section-tittle{
+    font-size: 25px;
+
+}
+
+.cat-container-06 .section-tittle{
+    font-size: 25px;
+
+}
+
+.cat-container-08 .section-tittle{
+    font-size: 25px;
+
+}
+
+.section-tittle-line{
+    width: 65%;
+}
+
+/*************************Styling cathegories container 21 at the page mission*****************/
+
+.cat-container-21{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+/*************************Styling cathegories container 22 at the page impact*****************/
+.cat-container-22{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 7%;
+}
+
+.cat-container-22 .subsection-tittle-01{
+    font-size: 22px;
+    margin-bottom: 5%;
+    margin-top: -14%;
+}
+
+.cat-container-22 .subsection-tittle-02{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.cat-container-22 .section-tittle{
+    margin-bottom: 1%;
+    font-size: 30px;
+}
+
+
+/*************************Styling cathegories container 23 at impact page*****************/
+
+.cat-container-23{
+    height: 820px;
+}
+
+.cat-container-23 .col-48, .col-49, .col-50 {
+    width: 100%;
+    margin-bottom:10%;
+}
+
+
+.cat-container-23 .row-23{
+        width: 70%;
+        display:block;
+        
+        
+}
+
+    
+.cat-container-23 .counter-box{
+        width: 100%;
+        
+}
+    
+    
+.cat-container-23 .counter-box .fa{
+        font-size: 45px;
+}
+    
+.cat-container-23 h2 {
+        margin: 12px 0;
+        font-size: 30px;
+}
+    
+    
+.cat-container-23 span {
+        margin: 8px 0;
+        font-size: 40px;
+}
+
+/*************************Styling cathegories container 24 at impact page*****************/
+
+.cat-container-24{
+    height: 900px;
+}
+
+.cat-container-24 .col-51, .col-52, .col-53 {
+    width: 100%;
+    margin-bottom:10%;
+}
+
+
+.cat-container-24 .row-24{
+        width: 70%;
+        display:block;
+        
+}
+
+    
+.cat-container-24 .counter-box{
+        width: 100%;
+        margin-bottom: 5%;
+}
+    
+    
+.cat-container-24 .counter-box .fa{
+        font-size: 45px;
+}
+    
+.cat-container-24 h2 {
+        margin: 12px 0;
+        font-size: 30px;
+}
+    
+    
+.cat-container-24 span {
+        margin: 8px 0;
+        font-size: 40px;
+}
+
+/*************************Styling cathegories container 25 at impact page*****************/
+
+.cat-container-25 {
+    margin-top: -70px;
+}
+
+
+.cat-container-25 .col-54, .col-55 {
+    width: 100%;
+}
+
+.cat-container-25 .col-55 img {
+    width: 80%;
+    margin-top: -1px;
+}
+
+.cat-container-25 .subsection-tittle-01{
+    font-size: 19px;
+}
+
+
+.cat-container-25 .col-54 li::marker {
+    font-size: 17.5px;
+}
+
+.cat-container-25 .col-54 li{
+    font-size: 16px;
+}
+
+.cat-container-25 .col-54 ul{
+    margin-left: 40px;
+}
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+
+}
+
