@@ -1031,12 +1031,12 @@ font-weight: bold;
 
 
  .footer-bottom{
-   height: 30px;
+    height: 40px;
     background: green;
     color:whitesmoke;
     font-size:11px;
     text-align: center;
-    line-height: 2rem;
+    line-height: 2.3rem;
 }
 
  /**********************Styling Location page*******************/
@@ -2507,9 +2507,9 @@ html,body{
 }
 
 .footer-bottom{
-    height: 30px;
-     font-size:10px;
-     line-height: 1.7rem;
+    height: 35px;
+    font-size:10px;
+    line-height: 1.8rem;
  }
 /*************************Styling cathegories container 10 at the contact page*****************/
 
