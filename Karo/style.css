@@ -344,9 +344,9 @@ nav ul li a.active {
     height: 70%;
     width:90%;
     transform: translate(-50%, -50%); 
-    background-color: #112a4b; 
+    background-color: #0e0b2c;
     text-align:left;
-    opacity: 0.8;
+    opacity: 0.5;
     font-family: 'Montserrat';
 }
 
