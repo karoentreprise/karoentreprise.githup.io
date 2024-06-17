@@ -2388,6 +2388,12 @@ font-weight: bold;
     width: 100%;
 } 
 
+.footer-bottom{
+    padding: 18px;
+    font-size:14px;
+}
+
+
 /*************************Styling cathegories container 10 at the contact page*****************/
 
 .cat-container-10 .col-28 {
