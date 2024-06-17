@@ -7,6 +7,8 @@
 
 body{
     font-family: 'Helvetica', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
 }
 
 a, a:hover{
@@ -704,30 +706,44 @@ font-weight: bold;
     clear: both;
 }
 
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
 
 /*************************Styling cathegories container 08 at the hope page for produits*****************/
 .cat-container-08{
-    max-width: 2300px;
+    width: 850px;
     margin: auto;
-    height: auto;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
     padding-left: 35px;
     padding-right: 35px;
     margin-bottom: 2%;
 }
 
+/*************************Styling cathegories container 08 at the hope page for produits*****************/
+.cat-container-08 .row-08{
+    width: calc(250px * 14);
+    animation: scroll 20s linear infinite;
+    display: flex;
+} 
+
 /*************************Styling cathegories container 08 at the hope page*****************/
-.cat-container-08 .col-18, .col-19, .col-20, .col-21, .col-22, .col-23 {
-    float: left;
-    width: 16.66%;
-    height: 170px;
-    padding-left: 10px;
-    padding-right: 10px;
-    justify-content: center;
+
+.cat-container-08 .col-18 {
+    width: 280px;
+    height: 250px;
 }
 
 .cat-container-08 img{
-    width:104%;
-    height: 164px ;
+    width: 250px;
+    height: 150px ;
 }
 
 .cat-container-08 .section-tittle{
@@ -743,13 +759,7 @@ font-weight: bold;
     font-weight: bold;
 }
 
-/* Clear floats after the columns */
 
-.cat-container-08 .row-08:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 /**********************End Starting Styling Page Homme (index) Content*******************/
 
@@ -1021,11 +1031,12 @@ font-weight: bold;
 
 
  .footer-bottom{
-    padding: 25px;
+   height: 30px;
     background: green;
     color:whitesmoke;
-    font-size:14px;
+    font-size:11px;
     text-align: center;
+    line-height: 2rem;
 }
 
  /**********************Styling Location page*******************/
@@ -2022,15 +2033,20 @@ font-weight: bold;
 @media only screen and (max-width: 600px){
 
 
-    /*---------------------Styling Scroll top button------------------*/
-
-
+html,body{
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+ /*---------------------Styling Scroll top button------------------*/
 
 .scroll-top{
     width:40px;
     height: 40px;
     bottom:20px;
-    right:80px;
+    right:50px;
     font-size: 15px;
     line-height: 40px;
 }
@@ -2041,14 +2057,10 @@ font-weight: bold;
     width:40px;
     height: 40px;
     bottom:20px;
-    left:80px;
+    left:50px;
     font-size: 15px;
     line-height: 40px;
 }
-
-
-
-
 
   .add_01{
     display: none;
@@ -2380,21 +2392,38 @@ font-weight: bold;
     }
 
     /*************************Styling cathegories container 08 at the hope page*****************/
-    .cat-container-08 .col-18, .col-19, .col-20, .col-21, .col-22, .col-23 {
-       width: 100%;
-       height: 100%;
-       justify-content: center;
-       padding-left: 5%;
-       margin-bottom: 20px;
-    }
 
-    .cat-container-08 img{
-      width:100%;
-      height: 100%;
-   }
+    /*************************Styling cathegories container 08 at the hope page for produits*****************/
+.cat-container-08{
+    width: 300px;
+    margin: auto;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 2%;
+}
+
+/*************************Styling cathegories container 08 at the hope page*****************/
+
+/*************************Styling cathegories container 08 at the hope page*****************/
+
+.cat-container-08 .col-18 {
+    width: 210px;
+    height: 250px;
+}
+
+.cat-container-08 img{
+    width: 200px;
+    height: 120px ;
+}
 
 
-    /*************************Styling cathegories container 09 at the footer page*****************/
+
+/*************************Styling cathegories container 09 at the footer page*****************/
+
+
  .cat-container-09 .col-24, .col-25, .col-26, .col-27 {
     width: 100%;
     margin-bottom: 12%;
@@ -2422,7 +2451,7 @@ font-weight: bold;
  /*************************Footer section*****************/
  .footer-section{
     width: 95%;
-    height: 100%;
+    height: 1300px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -2482,6 +2511,11 @@ font-weight: bold;
    font-size: 18px;
 }
 
+.footer-bottom{
+    height: 25px;
+     font-size:10px;
+     line-height: 0.3rem;
+ }
 /*************************Styling cathegories container 10 at the contact page*****************/
 
 .cat-container-10 .col-28 {
