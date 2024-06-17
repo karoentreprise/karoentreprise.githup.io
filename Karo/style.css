@@ -1979,9 +1979,11 @@ font-weight: bold;
 
 @media only screen and (max-width: 600px){
 
-    
+  .add_01{
+    display: none;
+    }
 
-    .logo img{
+ .logo img{
         max-width: 32%;
         max-height: 32%
     }
